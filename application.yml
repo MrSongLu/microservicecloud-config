@@ -1,14 +1,15 @@
 spring:
   profiles:
     active:
-    -dev
+    - dev
 ---
 spring:
   profiles: dev
   application:
-    name:microservicecloud-config-luxsong-dev
+    name: microservicecloud-config-atguigu-dev
+    
 ---
 spring:
-  profiles: test #测试环境
+  profiles: test
   application:
-    name:microservicecloud-config-luxsong-test
+    name: microservicecloud-config-atguigu-test
